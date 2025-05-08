@@ -20,7 +20,7 @@ export default function Home() {
 
       {/* Hero Carousel (Auto Sliding) */}
       <section className="pt-24 overflow-hidden relative">
-        <div className="flex w-[300%] animate-slide h-[calc(100vh-96px)]"> {/* 96px = header height */}
+        <div className="flex w-[300%] animate-slide h-[calc(100vh-96px)]">
           <div className="relative w-1/3 h-full">
             <Image
               src="/hero-momotaro-1.jpg"
@@ -87,7 +87,7 @@ export default function Home() {
         </div>
       </section>
 
-       {/* Stores */}
+      {/* Stores */}
       <section id="stores" className="py-20 px-6 max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-serif mb-6">Our Stores</h2>
         <p className="text-lg leading-relaxed mb-6">
@@ -104,44 +104,41 @@ export default function Home() {
 
       {/* About */}
       <section id="about" className="py-20 px-6 max-w-5xl mx-auto text-center">
-      <h2 className="text-3xl md:text-4xl font-serif mb-6">Crafted in Okayama, Japan</h2>
+        <h2 className="text-3xl md:text-4xl font-serif mb-6">Crafted in Okayama, Japan</h2>
         <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto px-6">
-          {/* Standard */}
           <div className="bg-white shadow-sm hover:shadow-lg transition">
             <Image src="/cotton.jpg" alt="Standard Collection" width={600} height={400} />
             <div className="p-4">
               <h3 className="text-xl font-serif mb-2">THE QUALITY</h3>
               <p className="text-sm">
-              We are Continuously pursuing the best highest finest quality.
-In the process of Pursuing the original in jeans manufacturing, we came across Zimbabwe cotton, which is also used for dress shirts.
-The finest cotton, we have been able to upgrade our jeans.
-We have sublimated them into "tools" that enrich your life.
-And then we are still enhancing the value of jeans by paying meticulous attention to every detail.
+                We are Continuously pursuing the best highest finest quality.
+                In the process of Pursuing the original in jeans manufacturing, we came across Zimbabwe cotton, which is also used for dress shirts.
+                The finest cotton, we have been able to upgrade our jeans.
+                We have sublimated them into &quot;tools&quot; that enrich your life.
+                And then we are still enhancing the value of jeans by paying meticulous attention to every detail.
               </p>
             </div>
           </div>
-          {/* Exclusive */}
           <div className="bg-white shadow-sm hover:shadow-lg transition">
             <Image src="/color.jpg" alt="Exclusive Collection" width={600} height={400} />
             <div className="p-4">
               <h3 className="text-xl font-serif mb-2">THE COLOR</h3>
               <p className="text-sm">
-              Japan has a beautiful "natural indigo" called "Japan blue" since ancient times.
-The " TOKUNO BLUE " has been produced through the supreme handiwork of craftsperson who dye it many times,
-the dyeing technology we developed, and the partnership with our factories.
-“特濃-TOKUNO BLUE", a dark indigo color, reminds us of the deep Seto Inland Sea.
+                Japan has a beautiful &quot;natural indigo&quot; called &quot;Japan blue&quot; since ancient times.
+                The &quot; TOKUNO BLUE &quot; has been produced through the supreme handiwork of craftsperson who dye it many times,
+                the dyeing technology we developed, and the partnership with our factories.
+                &quot;特濃-TOKUNO BLUE&quot;, a dark indigo color, reminds us of the deep Seto Inland Sea.
               </p>
             </div>
           </div>
-          {/* Classic */}
           <div className="bg-white shadow-sm hover:shadow-lg transition">
             <Image src="/newmomo.jpg" alt="Classic Collection" width={600} height={400} />
             <div className="p-4">
               <h3 className="text-xl font-serif mb-2">THE INNOVATION</h3>
               <p className="text-sm">
-              MOMOTARO JEANS, born in Kojima, Okayama, has the pride of the factory and its craftsperson.
-Therefore our mission is to continue pursuing the "real thing" and at the same time, we are committed to the development of Jeans Street and Kojima,
-and the protecting of the beautiful Seto Inland Sea. MOMOTARO JEANS preserves tradition and keeps on innovating.
+                MOMOTARO JEANS, born in Kojima, Okayama, has the pride of the factory and its craftsperson.
+                Therefore our mission is to continue pursuing the &quot;real thing&quot; and at the same time, we are committed to the development of Jeans Street and Kojima,
+                and the protecting of the beautiful Seto Inland Sea. MOMOTARO JEANS preserves tradition and keeps on innovating.
               </p>
             </div>
           </div>
@@ -152,10 +149,22 @@ and the protecting of the beautiful Seto Inland Sea. MOMOTARO JEANS preserves tr
       <section id="collection" className="py-20 bg-gray-50">
         <h2 className="text-3xl md:text-4xl font-serif text-center mb-10">Our Collection</h2>
         <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto px-6">
-          {[ 
-            { img: "/fanmomo.jpg", title: "KYO SENSU - HIRAGANA", desc: "This is a special order item with Miyawaki Urasenan, a long-established Kyoto fan maker.Based on the most classic fan shape called “18-ken”, the MOMOTARO JEANS logo is engraved on the outer frame.The design is based on a waka poem that Sugawara Michizane is said to have composed about the Kojima Karakoto.Once you pick it up and fan it, you will feel a pleasant breeze and smell a hint of musk, Miyawaki Urugian's original fragrance." },
-            { img: "/straight-1.jpg", title: "#100 NATURAL INDIGO STRAIGHT 12.2oz", desc: "#100 has a straight silhouette with orthodox thickness.Based on a moderately thick thigh, this sophisticated basic silhouette has a gentle taper below the knees. Slightly deeper crotch and a structure that loosely wraps around the waist.A timeless, universal jean achieved by adopting a pattern that pursues a beautiful silhouette and comfortable fit." },
-            { img: "/jacket-momo.jpg", title: "#002 CLASSIC DENIM JACKET 15.7oz", desc: "Inheriting a unique texture beloved across generations, this fabric combines durability with a soft, comfortable fit.#002 DENIM JACKET is a double-pocket jacket with the most basic fit. Featuring a relaxed body width and a moderate length for a comfortable fit. Have smart and highly functional side pockets.Designed with a pattern aimed at achieving comfortable wear and a beautiful silhouette, designed to enhance not only the wearer's appearance but also the gracefulness of their movements." },
+          {[
+            {
+              img: "/fanmomo.jpg",
+              title: "KYO SENSU - HIRAGANA",
+              desc: "This is a special order item with Miyawaki Urasenan, a long-established Kyoto fan maker. Based on the most classic fan shape called &quot;18-ken&quot;, the MOMOTARO JEANS logo is engraved on the outer frame. The design is based on a waka poem that Sugawara Michizane is said to have composed about the Kojima Karakoto. Once you pick it up and fan it, you will feel a pleasant breeze and smell a hint of musk, Miyawaki Urugian's original fragrance."
+            },
+            {
+              img: "/straight-1.jpg",
+              title: "#100 NATURAL INDIGO STRAIGHT 12.2oz",
+              desc: "#100 has a straight silhouette with orthodox thickness. Based on a moderately thick thigh, this sophisticated basic silhouette has a gentle taper below the knees. Slightly deeper crotch and a structure that loosely wraps around the waist. A timeless, universal jean achieved by adopting a pattern that pursues a beautiful silhouette and comfortable fit."
+            },
+            {
+              img: "/jacket-momo.jpg",
+              title: "#002 CLASSIC DENIM JACKET 15.7oz",
+              desc: "Inheriting a unique texture beloved across generations, this fabric combines durability with a soft, comfortable fit. #002 DENIM JACKET is a double-pocket jacket with the most basic fit. Featuring a relaxed body width and a moderate length for a comfortable fit. Have smart and highly functional side pockets. Designed with a pattern aimed at achieving comfortable wear and a beautiful silhouette, designed to enhance not only the wearer's appearance but also the gracefulness of their movements."
+            },
           ].map((item, index) => (
             <div key={index} className="bg-white shadow-sm hover:shadow-lg transition">
               <Image src={item.img} alt={item.title} width={600} height={400} />
@@ -167,6 +176,7 @@ and the protecting of the beautiful Seto Inland Sea. MOMOTARO JEANS preserves tr
           ))}
         </div>
       </section>
+
       {/* Footer */}
       <footer id="contact" className="bg-gray-900 text-gray-300 py-10">
         <div className="max-w-6xl mx-auto text-center">
